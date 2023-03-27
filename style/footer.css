@@ -11,7 +11,7 @@
   /* ==== SIMPLE FOOTER ==== */
   
   footer {
-    background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+    
     display: table;
     width: 100vw;
     height: 8rem;
@@ -21,7 +21,7 @@
     font-size: .875rem;
   }
   
-  .wrapper {
+  .wrapper-footer {
     display: table-cell;
     vertical-align: middle;
   }
@@ -46,7 +46,7 @@
   }
 
   .footer {
-    position: absolute;
+    position: initial;
     bottom: 0;
     left: 0;
     width: 100vw;
