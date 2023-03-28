@@ -11,7 +11,7 @@
   /* ==== SIMPLE FOOTER ==== */
   
   footer {
-    
+    color: gray;
     display: table;
     width: 100vw;
     height: 8rem;
@@ -34,6 +34,7 @@
   }
   
   .footer-nav a {
+    font-size: 1rem;
     color: #c74f78;
     text-decoration: none;
     margin: 0 .5rem;
@@ -51,4 +52,9 @@
     left: 0;
     width: 100vw;
     height: 50px;
+    color: gray;
+  }
+
+  .copyright {
+    color: #c74f78;
   }
