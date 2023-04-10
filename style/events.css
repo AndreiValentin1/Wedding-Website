@@ -47,7 +47,45 @@
     font-size: 1.25rem;
     line-height: 1.5rem;
   }
+
+  /* ==== UPPER DIV CONTAINER STYLES ==== */
+
+  #first-h1 {
+    font-size: 3rem;
+  }
+
+  .align {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: .1rem;
+    margin-bottom: .5rem;
+    padding: 0 .625rem;
+  }
+
+  /* ==== UPPER CONTAINER COUNTDOWN-CLOCK STYLES ==== */
+
+
+
+
+
+  /* ==== UPPER DIV PICTURE STYLES ==== */
+
+  #div-pic {
+    display: flex;
+    float: right;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 100%;
+    border-width: 10px;
+  }
+
+
+
+ 
   
+
+
   /* ==== ARTICLE STYLES ==== */
   
   section {
