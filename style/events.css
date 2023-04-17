@@ -1,3 +1,7 @@
+html {
+  background-color: antiquewhite;
+}
+
 /* ==== FULL SCREEN HEADER ==== */
 
 .cover {
@@ -62,8 +66,33 @@
     margin-bottom: .5rem;
     padding: 0 .625rem;
   }
+  
+ .picture {
+  display: inline;
+  position: relative;
+  right: 20%;
+ }
+
+  .countdown-clock {
+    display: inline;
+    text-align: left;
+    width: 50%;
+   
+  }
+  
 
   /* ==== UPPER CONTAINER COUNTDOWN-CLOCK STYLES ==== */
+  .clock {
+    display: inline-block;
+    background-color: #c74f78;
+    margin: 1.525rem 1.525rem 1.525rem 1.525rem;
+    padding: 1.625rem 1.625rem 1.625rem 1.625rem;
+    border-radius: 10%;
+    border: red;
+    border-style: double;
+    position: relative;
+    left: 20%;
+  }
 
 
 
@@ -78,6 +107,8 @@
     height: 25rem;
     border-radius: 100%;
     border-width: 10px;
+    ;
+    
   }
 
 
