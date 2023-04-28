@@ -87,6 +87,7 @@ html {
    .countdown-clock > p {
     text-align: center;
    }
+   
   .clock {
     display: inline-flex;
     background-color: #c74f78;

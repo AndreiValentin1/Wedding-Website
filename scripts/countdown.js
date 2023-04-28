@@ -14,10 +14,10 @@ var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
     
 // Result is output to the specific element
-document.getElementById("days").innerHTML = days + "d "
-document.getElementById("hours").innerHTML = hours + "h " 
-document.getElementById("mins").innerHTML = minutes + "m " 
-document.getElementById("secs").innerHTML = seconds + "s " 
+document.getElementById("days").innerHTML = days + " zile"
+document.getElementById("hours").innerHTML = hours + " ore" 
+document.getElementById("mins").innerHTML = minutes + " minute" 
+document.getElementById("secs").innerHTML = seconds + " secunde" 
     
 // Display the message when countdown is over
 if (timeleft < 0) {
